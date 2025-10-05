@@ -18,7 +18,7 @@ body {
   background: linear-gradient(to right, #041308, #0b3317);
 }
 .left-text {
-  padding: 40px;
+
   flex-basis: 35%;
 }
 
@@ -31,7 +31,7 @@ body {
 .sub-heading {
   font-weight: 400;
   line-height: 40px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ddd;
   margin-top: 10px;
   text-align: center;
@@ -44,7 +44,7 @@ body {
   display: grid;
   gap: 8px;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 210px;
+  grid-auto-rows: 80px;
   box-shadow:-7px 5px 11px 2px #3d3c3c
 }
 
@@ -87,6 +87,7 @@ body {
     width: 100%;
     padding: 10px;
     margin: 0px 10px;
+      grid-auto-rows: 210px;
   }
     .box{
     grid-column: span 3;
@@ -101,9 +102,10 @@ body {
 
   .gallary{
     width: 100%;
-
+  grid-auto-rows: 210px;
   }
 
 
 }
+
 
